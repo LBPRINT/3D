@@ -26,16 +26,17 @@
   <h1 style="color: white; font-size: 2.5em; margin: 0;">LBPRINT - Impression 3D sur demande</h1>
 </header>
 <main>
-  <div class="info">
-    <h2>Comment ça marche ?</h2>
-    <ul>
-      <li>Vous me décrivez le modèle que vous voulez ou vous m'envoyez votre fichier STL.</li>
-      <li>Je vous confirme le prix et le délai.</li>
-      <li>Vous payez avant impression via <strong>PayPal</strong>, <strong>Revolut</strong> ou <strong>Bitcoin</strong>.</li>
-      <li>Je vous imprime et je vous envoie le modèle par courrier (Colissimo ou Mondial Relay).</li>
-      <li><strong>Livraison uniquement en France métropolitaine</strong>.</li>
-    </ul>
-  </div>
+<div class="info">
+  <h2>Comment ça marche ?</h2>
+  <ul>
+    <li>Vous me décrivez le modèle que vous voulez.</li>
+    <li>Vous pouvez m’envoyer votre fichier STL via <strong>Messenger</strong> <strong>(optionnel)</strong>.</li>
+    <li>Je vous confirme le prix et le délai.</li>
+    <li>Vous payez avant impression via <strong>PayPal</strong>, <strong>Revolut</strong> ou <strong>Bitcoin</strong>.</li>
+    <li>Je vous imprime et je vous envoie le modèle par courrier (Colissimo ou Mondial Relay).</li>
+    <li><strong>Livraison uniquement en France métropolitaine</strong>.</li>
+  </ul>
+</div>
 
   <h2>Formulaire de demande</h2>
   <form id="demandForm" onsubmit="handleSubmit(event)">
@@ -51,8 +52,8 @@
     <label for="modelDescription">Description du modèle :</label>
     <textarea id="modelDescription" name="modelDescription" rows="4" placeholder="Décrivez votre modèle ou votre idée" required></textarea>
 
-    <label for="fileUpload">Fichier STL (optionnel) :</label>
-    <input type="file" id="fileUpload" name="fileUpload" accept=".stl">
+    <!-- <label for="fileUpload">Fichier STL (optionnel) :</label>
+<input type="file" id="fileUpload" name="fileUpload" accept=".stl"> -->
 
     <label for="color">Couleur souhaitée :</label>
     <select id="color" name="color">
